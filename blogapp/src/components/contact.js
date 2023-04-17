@@ -23,7 +23,7 @@ class Contact extends React.Component {
         message:message,
     };
        axios({
-        url:'http://localhost:2023/contact',
+        url:'https://blogbackend-1ayu.onrender.com/contact',
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         data: repObj

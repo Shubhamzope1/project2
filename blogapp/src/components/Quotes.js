@@ -11,7 +11,7 @@ class Quotes extends React.Component {
     }
     componentDidMount() {
         axios({
-            url: 'http://localhost:2023/Quotes',
+            url: 'https://blogbackend-1ayu.onrender.com/Quotes',
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })

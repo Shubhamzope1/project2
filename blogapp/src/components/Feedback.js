@@ -33,7 +33,7 @@ class Report extends React.Component {
       message: message,
     };
     axios({
-      url: 'http://localhost:2023/feeds',
+      url: 'https://blogbackend-1ayu.onrender.com/feeds',
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       data: repObj

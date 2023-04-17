@@ -16,7 +16,7 @@ class Digital extends React.Component {
     componentDidMount() {        //its
         sessionStorage.clear();
         axios({
-            url: 'http://localhost:2023/Digital',
+            url: 'https://blogbackend-1ayu.onrender.com/Digital',
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })

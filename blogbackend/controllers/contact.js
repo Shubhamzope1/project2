@@ -1,4 +1,4 @@
-const contact = require('../models/Feeds');
+const contact = require('../models/contact');
 //req is an object containing information about the HTTP request that raised the event. In response to req,
 // you use res to send back the desired HTTP response.
 exports.contact = (req, res, next) => {

@@ -47,13 +47,13 @@ class Footer extends React.Component {
               </div>
               <div className="text-start">
                 <div className="flyer">
-                  <a href="#" className="fly" target="_blank">
+                  <a href="https://www.facebook.com/shubhamzope1" className="fly" target="_blank" rel="noreferrer">
                     <i className="fab fa-facebook-f fontawesome-style text-white"></i>
                   </a>
 
                 </div>
                 <div className="flyer">
-                  <a href="https://www.instagram.com/shubhamzope1" target="_blank">
+                  <a href="https://www.instagram.com/shubhamzope1" target="_blank" rel="noreferrer">
                     <i class="fab fa-instagram fontawesome-style text-white start"></i>
                   </a>
                 </div>
